@@ -3,7 +3,7 @@
 ## Example
 
 ```csharp
-public HapticsGlove glove = new HapticsGlove();
+public OpenGlove glove = new HapticsGlove();
 glove.OpenPort("COM3", 9600);
 
 public int[] pins = {10, 12};
