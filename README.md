@@ -11,6 +11,6 @@ public String[] valuesON = { "HIGH","LOW"};
 public String[] valuesOFF = { "LOW", "LOW" };
 
 glove.InitializeMotor(pins);
-glove.activateMotor(pins, valuesON);
+glove.ActivateMotor(pins, valuesON);
 
 ```
